@@ -184,7 +184,7 @@ class MainWindow(QTabWidget):
         # todo 关于界面
         about_widget = QWidget()
         about_layout = QVBoxLayout()
-        about_title = QLabel('欢迎使用目标检测系统\n\n 提供付费指导：有需要的好兄弟加下面的QQ即可')  # todo 修改欢迎词语
+        about_title = QLabel('欢迎使用目标检测系统\n\n')  # todo 修改欢迎词语
         about_title.setFont(QFont('楷体', 18))
         about_title.setAlignment(Qt.AlignCenter)
         about_img = QLabel()
@@ -193,7 +193,6 @@ class MainWindow(QTabWidget):
 
         # label4.setText("<a href='https://oi.wiki/wiki/学习率的调整'>如何调整学习率</a>")
         label_super = QLabel()  # todo 更换作者信息
-        label_super.setText("<a href='https://blog.csdn.net/ECHOSON'>或者你可以在这里找到我-->肆十二</a>")
         label_super.setFont(QFont('楷体', 16))
         label_super.setOpenExternalLinks(True)
         # label_super.setOpenExternalLinks(True)
